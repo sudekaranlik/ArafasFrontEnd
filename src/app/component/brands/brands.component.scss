@@ -1,0 +1,41 @@
+.title{
+  font-size:xx-large;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon-start{
+  border-radius: 12px 0px 0px 12px ;
+}
+.input-as{
+  height: 40px;
+  border-color: black;
+  border-width: 0.1rem;
+  border-right: none;
+}
+.input-as1{
+  border-left: none;
+  border-color: black;
+  &:focus-visible{
+    border-left:0px !important
+  }
+  &:focus{
+    border-left: 0px !important;
+  }
+}
+.button-prop{
+  border-radius: 0pc 12px 12px 0px;
+  width:fit-content;
+}
+.card{
+  border-width: 0.01rem;
+  border-radius: 10px;
+  border-color: #0274bc;
+}
+.card-img-top{
+  object-fit: cover;
+}
+
+.screen{
+  overflow-y: scroll;
+  height: 100vh;
+}
